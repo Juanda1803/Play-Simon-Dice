@@ -1,51 +1,51 @@
-body{
+body {
   margin: 0;
-  background-color: #777b8c;
+  background-image: url('./src/stars.svg');
   align-items: center;
   display: flex;
   height: 100vh;
 }
-.hero{
+.hero {
   width: 100vh;
   height: 100vh;
   border-radius: 50%;
   border: 2px solid black;
   overflow: hidden;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   max-width: 500px;
   max-height: 500px;
   margin: 0 auto;
   display: flex;
 }
-.color{
+.color {
   height: 50%;
   width: 50%;
 }
-.ligh_blue{
+.ligh_blue {
   background-color: aqua;
 }
-.violet{
+.violet {
   background-color: violet;
 }
-.orange{
+.orange {
   background-color: orange;
 }
-.green{
+.green {
   background-color: green;
 }
-.ligh_blue.light{
+.ligh_blue.light {
   background: #7ed6df;
 }
-.violet.light{
+.violet.light {
   background: #7ed6df;
 }
-.orange.light{
+.orange.light {
   background: #7ed6df;
 }
-.green.light{
+.green.light {
   background: #7ed6df;
 }
-.button{
+.button {
   width: 600px;
   height: 150px;
   background: #ecf0f1;
@@ -54,9 +54,9 @@ body{
   left: calc(50% - 300px);
   font-size: 60px;
 }
-.hide{
+.hide {
   display: none;
 }
-*{
+* {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
